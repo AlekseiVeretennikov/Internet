@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="1355125f97e7409998d642de717224ca" Name="Diagram1">
+        <EntityTypeShape EntityType="InternetProviderModel.Client" Width="1.5" PointX="3" PointY="6" IsExpanded="true" />
+        <EntityTypeShape EntityType="InternetProviderModel.Equipment" Width="1.5" PointX="0.75" PointY="1.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="InternetProviderModel.Internet" Width="1.5" PointX="0.75" PointY="5.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="InternetProviderModel.Manager" Width="1.5" PointX="3" PointY="9.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="InternetProviderModel.Sale" Width="1.5" PointX="0.75" PointY="8" IsExpanded="true" />
+        <EntityTypeShape EntityType="InternetProviderModel.sysdiagrams" Width="1.5" PointX="5.75" PointY="4.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="InternetProviderModel.Tariff" Width="1.5" PointX="3" PointY="1" IsExpanded="true" />
+        <EntityTypeShape EntityType="InternetProviderModel.TV" Width="1.5" PointX="0.75" PointY="10.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="InternetProviderModel.User" Width="1.5" PointX="7.75" PointY="0.75" IsExpanded="true" />
+        <AssociationConnector Association="InternetProviderModel.FK_Tariff_Equipment" ManuallyRouted="false" />
+        <AssociationConnector Association="InternetProviderModel.FK_Tariff_Internet" ManuallyRouted="false" />
+        <AssociationConnector Association="InternetProviderModel.FK_Tariff_Sale" ManuallyRouted="false" />
+        <AssociationConnector Association="InternetProviderModel.FK_Tariff_TV" ManuallyRouted="false" />
+        <EntityTypeShape EntityType="InternetProviderModel.C_Application" Width="1.5" PointX="5.5" PointY="1.125" />
+        <AssociationConnector Association="InternetProviderModel.FK_Application_Client1" />
+        <AssociationConnector Association="InternetProviderModel.FK_Application_Manager1" />
+        <AssociationConnector Association="InternetProviderModel.FK_Application_Tariff1" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
